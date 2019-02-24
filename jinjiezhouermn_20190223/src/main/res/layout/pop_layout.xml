@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:navigationIcon="@drawable/ic_launcher_background"
+        android:title="标题"
+        android:titleTextColor="#fff">-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+    </android.support.v7.widget.RecyclerView>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/re2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"></android.support.v7.widget.RecyclerView>
+   <!-- </android.support.v7.widget.Toolbar>-->
+
+<!--<Button
+    android:id="@+id/bt1"
+    android:text="111"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/bt2"
+        android:text="222"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />-->
+</LinearLayout>
